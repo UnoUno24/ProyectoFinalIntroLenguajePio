@@ -1,0 +1,116 @@
+body {
+    background-image: url('../img/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+header{
+    text-align: left;
+    background-color: white;
+    padding: 0.1mm;
+    background-size: contain;
+}
+.hero {
+    text-align: center;
+    font-size: 3 rem;
+    font-family: "Sofadi One", system-u;
+    color: white;
+    padding: 30px;
+}
+.lade {
+    color: white;
+    font-family: "Sofadi One", system-u;
+}
+.mi-boton {
+    background-color: white;
+    font-family: "Sofadi One", system-u;
+    border: none;
+    color: grey;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+.custom-nav .nav-link{
+    font-size: 20px;
+    color: gray;
+}
+.custom-nav .nav-link.active,
+.custom-nav .nav-link:focus {
+    background-color: transparent;
+    color: rgb(104, 105, 187);
+}
+.custom-nav .nav-lin:hover {
+    background-color: transparent;
+    color: rgb(0, 143, 209);
+}
+.carousel-item img {
+    height: 490px;
+    object-fit: cover;
+}
+.carousel {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+.carousel-title {
+    font-size: 3 rem;
+    font-family: "Sofadi One", system-u;
+    margin: 10px 0;
+    color: white;
+    text-align: center;
+}
+.container {
+    max-width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+}
+.accordion {
+    font-family: "Sofadi One", system-u;
+    padding: 30px;
+}
+footer {
+    background-color: rgb(104, 105, 187);
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer-icons a {
+    text-decoration: none;
+}
+.footer-icons a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+.footer-icons a img:hover{
+    transform: scale(1.2);
+}
+.row {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.form {
+    padding: 30px;
+}
+.form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label {
+    margin-top: 10px;
+    display: block;
+}
+
